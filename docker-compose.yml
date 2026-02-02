@@ -1,0 +1,7 @@
+services:
+  database:
+    build: ./database
+  backend:
+    build: ./backend
+  frontend:
+    build: ./frontend
